@@ -71,5 +71,5 @@ if __name__ == "__main__":
     data_transformation=DataTransformation()
     train_arr, test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
 
-    ModelTrainer=ModelTrainer()
-    print(ModelTrainer.initiate_model_trainer(train_arr,test_arr))
+    modelTrainer = ModelTrainer()
+    print(modelTrainer.initiate_model_trainer(train_arr,test_arr))
