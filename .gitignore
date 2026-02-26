@@ -206,3 +206,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore ML artifacts
+artifacts/
+catboost_info/
